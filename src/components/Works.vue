@@ -81,6 +81,7 @@ export default {
   background-color: #001947;
   color: #ffffff;
   width: 100%;
+  padding: 1rem 0rem;
 }
 
 .works-btn {
@@ -107,6 +108,7 @@ export default {
 .sites {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 1rem 0rem;
   height: 0px;
   overflow: hidden;
@@ -116,13 +118,19 @@ export default {
 .sites-toggle {
   height: 200px;
   transition: 2s height;
+  overflow-y: auto;
 }
 
 .site {
   border-right: 1px solid #ffffff;
   padding: 1rem;
-  width: 25%;
+  width: 20%;
+  min-width: 250px;
   overflow-y: auto;
+}
+
+.site:last-child {
+  border-right: transparent;
 }
 
 details {

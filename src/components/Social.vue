@@ -26,6 +26,7 @@ export default {
   color: #ffffff;
   background-color: #001947;
   width: 100%;
+  padding: 1rem 0rem;
 }
 
 .socials div {

@@ -51,6 +51,7 @@ body {
 .sections section {
   margin: 0 auto;
   width: 30%;
+  min-width: 250px;
   background-color: #ffffff;
   color: #001947;
   border: 1px solid #001947;
@@ -62,6 +63,6 @@ footer {
   position: relative;
   width: 100%;
   bottom: 0rem;
-  padding: 1rem;
+  padding: 1rem 0rem;
 }
 </style>
