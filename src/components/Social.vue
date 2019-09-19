@@ -12,6 +12,12 @@
   </section>
 </template>
 
+<script>
+export default {
+  name: 'Social'
+}
+</script>
+
 <style scoped>
 .socials {
   display: flex;
@@ -19,6 +25,7 @@
   font-size: 2rem;
   color: #ffffff;
   background-color: #001947;
+  width: 100%;
 }
 
 .socials div {

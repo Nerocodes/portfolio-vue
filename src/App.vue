@@ -4,6 +4,7 @@
     <div class="sections">
       <Frontend />
       <Backend />
+      <Works />
       <Social />
     </div>
   </div>
@@ -14,6 +15,7 @@ import Profile from './components/Profile';
 import Frontend from './components/Frontend';
 import Backend from './components/Backend';
 import Social from './components/Social';
+import Works from './components/Works';
 
 export default {
   name: 'app',
@@ -21,6 +23,7 @@ export default {
     Profile,
     Frontend,
     Backend,
+    Works,
     Social
   }
 }
@@ -41,14 +44,11 @@ body {
   border-radius: 10%;
 }
 
-.sections {
+.sections section {
   margin: 0 auto;
   width: 30%;
   background-color: #ffffff;
   color: #001947;
-}
-
-.sections section {
   border: 1px solid #001947;
   padding: 1rem;
   text-transform: capitalize;
