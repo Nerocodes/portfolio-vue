@@ -4,6 +4,7 @@
     <div class="sections">
       <Frontend />
       <Backend />
+      <Social />
     </div>
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Profile from './components/Profile';
 import Frontend from './components/Frontend';
 import Backend from './components/Backend';
+import Social from './components/Social';
 
 export default {
   name: 'app',
   components: {
     Profile,
     Frontend,
-    Backend
+    Backend,
+    Social
   }
 }
 </script>

@@ -1,0 +1,39 @@
+<template>
+  <section class="socials">
+    <div class="linkedIn">
+      <a href="https://www.linkedin.com/in/nerocodes" target="blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="github">
+      <a href="https://github.com/Nerocodes" target="blank"><i class="fab fa-github-square"></i></a>
+    </div>
+    <div class="twitter">
+      <a href="https://twitter.com/nerocodes" target="blank"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </section>
+</template>
+
+<style scoped>
+.socials {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: #001947;
+}
+
+.socials div {
+  margin-right: 1rem;
+}
+
+.socials div:hover i{
+  color: #415e96;
+}
+
+.socials div:last-child {
+  margin-right: 0rem;
+}
+
+a {
+  color: inherit;
+}
+</style>
