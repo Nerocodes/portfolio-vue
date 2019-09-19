@@ -3,6 +3,7 @@
     <Profile />
     <div class="sections">
       <Frontend />
+      <Backend />
     </div>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Profile from './components/Profile';
 import Frontend from './components/Frontend';
+import Backend from './components/Backend';
 
 export default {
   name: 'app',
   components: {
     Profile,
-    Frontend
+    Frontend,
+    Backend
   }
 }
 </script>
