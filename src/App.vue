@@ -7,6 +7,7 @@
       <Works />
       <Social />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Frontend from './components/Frontend';
 import Backend from './components/Backend';
 import Social from './components/Social';
 import Works from './components/Works';
+import Footer from './components/Footer';
 
 export default {
   name: 'app',
@@ -24,7 +26,8 @@ export default {
     Frontend,
     Backend,
     Works,
-    Social
+    Social,
+    Footer
   }
 }
 </script>
@@ -37,6 +40,7 @@ body {
   padding: 0rem;
   margin: 0rem;
   font-family: 'Courier New', Courier, monospace;
+  overflow-x: hidden;
 }
 
 .profile-pic img {
@@ -55,10 +59,9 @@ body {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0rem;
   padding: 1rem;
-  border-top: 1px solid #ffffff;
 }
 </style>
