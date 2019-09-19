@@ -1,28 +1,56 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Profile />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Profile from './components/Profile';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Profile
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  background-color: #001947;
+  color: #ffffff;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 0rem;
+  margin: 0rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.profile-pic img {
+  width: 250px;
+  border-radius: 10%;
+}
+
+.stuff ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 30%;
+  background-color: #ffffff;
+  color: #001947;
+}
+
+.stuff ul li {
+  border: 1px solid #001947;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0rem;
+  padding: 1rem;
+  border-top: 1px solid #ffffff;
 }
 </style>
