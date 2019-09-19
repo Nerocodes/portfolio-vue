@@ -1,16 +1,27 @@
 <template>
   <div id="app">
     <Profile />
+    <div class="sections">
+      <Frontend />
+      <Backend />
+      <Social />
+    </div>
   </div>
 </template>
 
 <script>
 import Profile from './components/Profile';
+import Frontend from './components/Frontend';
+import Backend from './components/Backend';
+import Social from './components/Social';
 
 export default {
   name: 'app',
   components: {
-    Profile
+    Profile,
+    Frontend,
+    Backend,
+    Social
   }
 }
 </script>
@@ -30,17 +41,14 @@ body {
   border-radius: 10%;
 }
 
-.stuff ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: 1.5rem;
+.sections {
   margin: 0 auto;
   width: 30%;
   background-color: #ffffff;
   color: #001947;
 }
 
-.stuff ul li {
+.sections section {
   border: 1px solid #001947;
   padding: 1rem;
   text-transform: capitalize;
