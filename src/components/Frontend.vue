@@ -12,8 +12,8 @@ export default {
 
 <style scoped>
 @keyframes slide-in-left {
-  from { margin-left: -120vw }
-  to { margin-left: 33.8vw }
+  from { transform: translateX(-1000px) }
+  to { transform: translateX( 0px) }
 }
 
 .frontend {

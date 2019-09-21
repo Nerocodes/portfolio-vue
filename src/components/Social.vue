@@ -9,6 +9,9 @@
     <div class="twitter">
       <a href="https://twitter.com/nerocodes" target="blank"><i class="fab fa-twitter-square"></i></a>
     </div>
+    <div class="resume">
+      <a href="./oghenero.pdf" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+    </div>
   </section>
 </template>
 
