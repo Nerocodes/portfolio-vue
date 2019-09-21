@@ -12,8 +12,8 @@ export default {
 
 <style scoped>
 @keyframes slide-in-right {
-  from { margin-right: -120vw }
-  to { margin-right: 33.8vw }
+  from { transform: translateX(1000px) }
+  to { transform: translateX( 0px) }
 }
 
 .backend {
