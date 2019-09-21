@@ -45,6 +45,7 @@ body {
 
 .profile-pic img {
   width: 250px;
+  height: 166.67px;
   border-radius: 10%;
 }
 
