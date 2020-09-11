@@ -44,9 +44,10 @@ body {
 }
 
 .profile-pic img {
-  width: 250px;
-  height: 166.67px;
-  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .sections section {
