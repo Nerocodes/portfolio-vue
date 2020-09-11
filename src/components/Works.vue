@@ -3,16 +3,38 @@
     <button class="works-btn" @click="toggleWorks">View my works</button>
     <div class="sites">
       <div class="site">
-        <p class="title">Temitope Odushola</p>
-        <p class="description">Music personality</p>
+        <p class="title">Wedeydo</p>
+        <p class="description">Crowdfunding apllication</p>
         <details>
           <summary>Stack</summary>
           <details>
             <summary>Frontend</summary>
-            Vanilla JavaScript
+            React
+          </details>
+          <details>
+            <summary>Backend</summary>
+            Nodejs <br>
+            Postgresql
           </details>
         </details>
-        <a href="https://temitopeodushola.com/" class="visit-btn" target="blank">View app</a>
+        <a href="https://wedeydo.com" class="visit-btn" target="blank">View app</a>
+      </div>
+      <div class="site">
+        <p class="title">OviePaulEj</p>
+        <p class="description">Portfolio</p>
+        <details>
+          <summary>Stack</summary>
+          <details>
+            <summary>Frontend</summary>
+            Wordpress
+          </details>
+          <details>
+            <summary>Backend</summary>
+            PHP <br>
+            MySQL
+          </details>
+        </details>
+        <a href="https://oviepaulej.com/" class="visit-btn" target="blank">View app</a>
       </div>
       <div class="site">
         <p class="title">Banka</p>
@@ -30,6 +52,18 @@
           </details>
         </details>
         <a href="https://nerocodes.github.io/banka/ui/" class="visit-btn" target="blank">View app</a>
+      </div>
+      <div class="site">
+        <p class="title">Temitope Odushola</p>
+        <p class="description">Music personality</p>
+        <details>
+          <summary>Stack</summary>
+          <details>
+            <summary>Frontend</summary>
+            Vanilla JavaScript
+          </details>
+        </details>
+        <a href="https://brave-rosalind-140a13.netlify.app/" class="visit-btn" target="blank">View app</a>
       </div>
       <div class="site">
         <p class="title">Hannah Ephraim</p>
