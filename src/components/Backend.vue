@@ -1,6 +1,6 @@
 <template>
   <section class="backend">
-    Nodejs, Adonisjs, PHP/Laravel
+    PHP/Laravel, Nodejs, Nestjs, MySQL, Postgresql
   </section>
 </template>
 

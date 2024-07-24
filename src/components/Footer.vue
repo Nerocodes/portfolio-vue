@@ -1,11 +1,16 @@
 <template>
   <footer>
-    NeroCodes &copy;2019
+    NeroCodes &copy; {{ year }}
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  computed: {
+    year() {
+      return new Date().getFullYear();
+    }
+  }
 }
 </script>

@@ -27,7 +27,7 @@ export default {
   justify-content: center;
   font-size: 2rem;
   color: #ffffff;
-  background-color: #001947;
+  background-color: #64766a;
   width: 100%;
   padding: 1rem 0rem;
 }
@@ -37,7 +37,7 @@ export default {
 }
 
 .socials div:hover i{
-  color: #415e96;
+  color: #c0a9bd;
 }
 
 .socials div:last-child {

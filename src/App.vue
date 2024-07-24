@@ -34,7 +34,7 @@ export default {
 
 <style>
 body {
-  background-color: #001947;
+  background-color: #64766a;
   color: #ffffff;
   text-align: center;
   padding: 0rem;
@@ -47,7 +47,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .sections section {
@@ -55,8 +55,8 @@ body {
   width: 30%;
   min-width: 250px;
   background-color: #ffffff;
-  color: #001947;
-  border: 1px solid #001947;
+  color: #64766a;
+  border: 1px solid #64766a;
   padding: 1rem;
   text-transform: capitalize;
 }

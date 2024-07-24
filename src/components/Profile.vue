@@ -4,7 +4,7 @@
       <h1>Oghenero Paul-Ejukorlem</h1>
     </header>
     <figure class="profile-pic">
-      <img src="https://res.cloudinary.com/drlcfqzym/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_black,b_rgb:262c35/v1599795751/Oghenero.jpg" alt="me">
+      <img src="https://res.cloudinary.com/wedeydo/image/upload/v1721826133/Untitled-10_3.jpg" alt="me">
       <figcaption>NeroCodes</figcaption>
     </figure>
     <h2>Software Engineer</h2>

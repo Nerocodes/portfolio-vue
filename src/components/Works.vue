@@ -2,7 +2,7 @@
   <section class="works">
     <button class="works-btn" @click="toggleWorks">View my works</button>
     <div class="sites">
-      <div class="site">
+      <div class="site hide">
         <p class="title">Wedeydo</p>
         <p class="description">Crowdfunding apllication</p>
         <details>
@@ -18,6 +18,30 @@
           </details>
         </details>
         <a href="https://wedeydo.com" class="visit-btn" target="blank">View app</a>
+      </div>
+      <div class="site">
+        <p class="title">Temitope Odushola</p>
+        <p class="description">Music personality</p>
+        <details>
+          <summary>Stack</summary>
+          <details>
+            <summary>Frontend</summary>
+            Vanilla JavaScript
+          </details>
+        </details>
+        <a href="https://brave-rosalind-140a13.netlify.app/" class="visit-btn" target="blank">View app</a>
+      </div>
+      <div class="site">
+        <p class="title">Teelonis</p>
+        <p class="description">All about gifts</p>
+        <details>
+          <summary>Stack</summary>
+          <details>
+            <summary>Frontend</summary>
+            Nuxtjs, Vuejs
+          </details>
+        </details>
+        <a href="https://superlative-duckanoo-4ac339.netlify.app/" class="visit-btn" target="blank">View app</a>
       </div>
       <div class="site">
         <p class="title">OviePaulEj</p>
@@ -53,19 +77,7 @@
         </details>
         <a href="https://nerocodes.github.io/banka/ui/" class="visit-btn" target="blank">View app</a>
       </div>
-      <div class="site">
-        <p class="title">Temitope Odushola</p>
-        <p class="description">Music personality</p>
-        <details>
-          <summary>Stack</summary>
-          <details>
-            <summary>Frontend</summary>
-            Vanilla JavaScript
-          </details>
-        </details>
-        <a href="https://brave-rosalind-140a13.netlify.app/" class="visit-btn" target="blank">View app</a>
-      </div>
-      <div class="site">
+      <div class="site hide">
         <p class="title">Hannah Ephraim</p>
         <p class="description">Jewellery store</p>
         <details>
@@ -83,16 +95,16 @@
         <a href="https://hannahephraim.com/" class="visit-btn" target="blank">View app</a>
       </div>
       <div class="site">
-        <p class="title">Teelonis</p>
-        <p class="description">All about gifts</p>
+        <p class="title">Farmly</p>
+        <p class="description">Farming Automation</p>
         <details>
           <summary>Stack</summary>
           <details>
             <summary>Frontend</summary>
-            Vuejs
+            Reactjs
           </details>
         </details>
-        <a href="https://teelonis.herokuapp.com/" class="visit-btn" target="blank">View app</a>
+        <a href="https://farmly-7e69d.firebaseapp.com/" class="visit-btn" target="blank">View app</a>
       </div>
     </div>
   </section>
@@ -112,7 +124,7 @@ export default {
 
 <style scoped>
 .works {
-  background-color: #001947;
+  background-color: #64766a;
   color: #ffffff;
   width: 100%;
   padding: 1rem 0rem;
@@ -123,7 +135,7 @@ export default {
   height: 75px;
   border-radius: 50%;
   border: 2px solid #ffffff;
-  background-color: #001947;
+  background-color: #64766a;
   color: #ffffff;
   cursor: pointer;
   text-transform: uppercase;
@@ -132,7 +144,7 @@ export default {
 
 .works-btn:hover {
   background-color: #ffffff;
-  color: #001947;
+  color: #64766a;
 }
 
 .works-btn:focus {
@@ -191,6 +203,10 @@ details summary:focus {
 
 .visit-btn:hover {
   background-color: #ffffff;
-  color: #001947;
+  color: #64766a;
+}
+
+.hide {
+  display: none;
 }
 </style>
